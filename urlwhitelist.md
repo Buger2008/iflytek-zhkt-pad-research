@@ -108,10 +108,10 @@ bj.download.cycore.cn, jiumentongbu.com, jxwxxkj.com, xuexizhiwang.com, zhinengt
 ```text
 jiumentongbu.com, jxwxxkj.com, xuexizhiwang.com, zhinengtongbu.com
 ```
-
+### 除了以上域名还能打开www.nobook.com，应该已经集成到某一个IP里面了
 ### 1.7 域名 → 受影响服务
 
-下列 **21 个去重域名**在华为机型上全部下发失败（原因见 2.3），但是IP里可能已经包含了对应服务，所以实测依旧可以访问（这也解释了为什么之前知乎，腾讯云在特定情况下也能访问，应该也是IP原因）：
+下列 **21 个去重域名**在华为机型上全部下发失败（原因见 2.3），但是IP里可能已经包含了对应服务，所以实测依旧可以访问（这也解释了为什么之前知乎，腾讯云在特定情况下也能访问，应该也是IP解析原因）：
 
 - **阿里云 OSS** — `ei.oss-cn-hangzhou.aliyuncs.com`, `ets60.oss-cn-hangzhou.aliyuncs.com`, `fei.oss-cn-hangzhou.aliyuncs.com`, `jkptclassroom.oss-cn-beijing.aliyuncs.com`, `oss-cn-beijing.aliyuncs.com`, `subject.oss-cn-hangzhou.aliyuncs.com`
 - **第三方同步资源** — `jiumentongbu.com`, `jxwxxkj.com`, `xuexizhiwang.com`, `zhinengtongbu.com`
