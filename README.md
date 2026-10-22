@@ -9,3 +9,7 @@
 2.urlhotspotredirect
 
 一个python脚本，让你利用学校热点在平板打开NB实验室
+
+3.store.md
+
+畅言商店内置APP列表
